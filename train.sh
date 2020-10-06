@@ -1,0 +1,11 @@
+python3 main.py \
+    --num_workers=8 \
+    --gpu=4 --device=cuda --model=SAKT \
+    --num_epochs=1 \
+    --eval_steps=5000 \
+    --train_batch=64 \
+    --test_batch=128 \
+    --seq_size=200 \
+    --input_dim=100 \
+    --hidden_dim=100 \
+    --dataset_name=EdNet-KT1
