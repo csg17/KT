@@ -86,9 +86,9 @@ def run(i):
     print('End reading...')
     
     # Tensor 반환
-    train_data = UserSepDataset('train', train_sample_infos, ARGS.dataset_name)
-    val_data = UserSepDataset('val', val_sample_infos, ARGS.dataset_name)
-    test_data = UserSepDataset('test', test_sample_infos, ARGS.dataset_name)
+#     train_data = UserSepDataset('train', train_sample_infos, ARGS.dataset_name)
+#     val_data = UserSepDataset('val', val_sample_infos, ARGS.dataset_name)
+#     test_data = UserSepDataset('test', test_sample_infos, ARGS.dataset_name)
 
     print('Train: # of users: {}, # of samples: {}'.format(num_of_train_user, len(train_sample_infos)))
     print('Validation: # of users: {}, # of samples: {}'.format(num_of_val_user, len(val_sample_infos)))
